@@ -23,3 +23,14 @@
     ];
     foaf:member dbp:WEFT ;
     zelip:githubID "brianzelip" .
+
+<http://dbpedia.org/resource/WEFT> a foaf:Organization;
+    foaf:name "WEFT 90.1fm"@en ;
+    foaf:nick "WEFT"@en ;
+    foaf:homepage <http://weft.org> ;
+    dc:description """WEFT Champaign 90.1FM is a community radio station in Champaign, Illinois, founded in 1981 and owned by Prairie Air, Inc., a not-for-profit corporation. It has a wide range of programming, including music from several genres, public affairs discussion, theater and arts, and more. WEFT's mission is to be "an accessible, responsible, and responsive radio alternative, serving the diverse communities of radio listeners in East-Central Illinois."""@en ;
+    foaf:based_near [
+        a geo:Point ;
+        geo:lat "40.116852" ;
+        geo:long "-88.241732" ;
+    ] .
