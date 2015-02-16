@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wped: <http://en.wikipedia.org/wiki/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xref: <http://id.crossref.org/contributor/>.
+
+<http://people.lis.illinois.edu/~ddubin/> a foaf:Person;
+     foaf:familyName "Dubin"@en ;
+     foaf:givenName "David"@en ;
+     foaf:name "David Dubin"@en ;
+     foaf:nick "Dave Dubin"@en ;
+     dc:description """David Dubin is a Research Associate Professor at the 
+University of Illinois Graduate School of Library and Information Science in 
+Champaign, IL."""@en ;
+     foaf:homepage <http://people.lis.illinois.edu/~ddubin/ddubin.html> ;
+     foaf:publications <http://people.lis.illinois.edu/~ddubin/research.html> ;
+     foaf:page <http://scholar.google.com/citations?user=66pK-nYAAAAJ&hl> ; 
+     foaf:img <http://people.lis.illinois.edu/~ddubin/DaveDubin.jpg> ;
+     foaf:mbox_sha1sum "ca5bbf01ae2bf20fa0d3dc58739a918ec218f189" ;
+     foaf:skypeID "ddubin65" ;
+     foaf:workplaceHomepage <http://www.lis.illinois.edu/> ;
+     foaf:workInfoHomepage <http://www.lis.illinois.edu/people/faculty/ddubin> ;
+     foaf:based_near [
+         a geo:Point;
+         geo:lat "40.107879" ;
+         geo:long "-88.231900" ; 
+      ]; 
+     madsrdf:isIdentifiedByAuthority <http://id.loc.gov/authorities/names/n92103828> ;
+     owl:sameAs xref:d-dubin-16dux6c6tnzs5 ;
+     owl:sameAs xref:david-dubin-1mz3vplxb67k ;
+     owl:sameAs xref:david-dubin-2i5wxavhmk6oy ;
+     owl:sameAs xref:david-dubin-2mux21svnilhf ;
+     owl:sameAs xref:david-dubin-48kezj6r7pc8 ;
+     owl:sameAs xref:david-dubin-61hrshdzp1mr ;
+     owl:sameAs xref:david-dubin-jkp1liwg344t ;
+     owl:sameAs xref:david-dubin-pdc0cwc9ml1w ;
+     owl:sameAs xref:david-dubin-rnra3svgpiry ;
+     owl:sameAs xref:david-dubin-xim5tg2whbui ;
+     owl:sameAs xref:david-dubin-zswte1p8vrco ;
+     owl:sameAs xref:david-s-dubin-v52fwbh3m2a3 ;
+     owl:sameAs xref:david-dubin-2tmwjqqdbsns3 ;
+     owl:sameAs xref:david-dubin-2k6s8cbcgctud ;
+     owl:sameAs xref:david-dubin-qdtzmcz6rg18 ;
+     foaf:interest wped:Library_science ;
+     foaf:interest wped:Information_science ;
+     foaf:interest wped:Board_game .
