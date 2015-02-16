@@ -5,6 +5,7 @@
 @prefix wped: <http://en.wikipedia.org/wiki/> .
 @prefix dbp: <http://dbpedia.org/resource/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix zelip: <http://zelip.me/rdf/> .
 
 <http://zelip.me> a foaf:Person;
     foaf:familyName "Zelip"@en ;
@@ -20,4 +21,5 @@
         geo:lat "40.104709" ;
         geo:long "-88.229012" ; 
     ];
-    foaf:member dbp:WEFT .
+    foaf:member dbp:WEFT ;
+    zelip:githubID "brianzelip" .
