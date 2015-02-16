@@ -22,12 +22,11 @@
         geo:long "-88.229012" ; 
     ];
     foaf:member dbp:WEFT ;
-    foaf:member dbp:Free_Software_Foundation ;
     foaf:skypeID "brianzelip" ;
     zelip:githubID "brianzelip" ;
     zelip:twitterID "bzelip" ;
 
-<http://dbpedia.org/resource/WEFT> a foaf:Organization;
+<http://dbpedia.org/resource/WEFT> a foaf:Organization ;
     foaf:name "WEFT 90.1fm"@en ;
     foaf:nick "WEFT"@en ;
     foaf:homepage <http://weft.org> ;
@@ -36,4 +35,4 @@
         a geo:Point ;
         geo:lat "40.116852" ;
         geo:long "-88.241732" ;
-    ] .
+    ].
