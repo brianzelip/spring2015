@@ -23,7 +23,6 @@
     ];
     foaf:member dbp:WEFT ;
     foaf:member dbp:Free_Software_Foundation ;
-    foaf:member dpb:Association_for_Computing_Machinery ;
     foaf:skypeID "brianzelip" ;
     zelip:githubID "brianzelip" ;
     zelip:twitterID "bzelip" ;
