@@ -14,7 +14,7 @@
     dc:description """Brian Zelip is a Masters student at the University of Illinois Graduate School of Library and Information Science."""@en ;
     foaf:homepage <http://people.lis.illinois.edu/~bzelip/index.html> ;
     foaf:img <http://people.lis.illinois.edu/~bzelip/img/bz-square.jpg> ;
-    foaf:skypeID "brianzelip" ;
+    foaf:mbox "bzelip@illinois.edu" ;
     foaf:workplaceHomepage <http://library.illinois.edu/sc> ;
     foaf:based_near [
         a geo:Point;
@@ -22,7 +22,11 @@
         geo:long "-88.229012" ; 
     ];
     foaf:member dbp:WEFT ;
-    zelip:githubID "brianzelip" .
+    foaf:member dbp:Free_Software_Foundation ;
+    foaf:member dpb:Association_for_Computing_Machinery ;
+    foaf:skypeID "brianzelip" ;
+    zelip:githubID "brianzelip" ;
+    zelip:twitterID "bzelip" ;
 
 <http://dbpedia.org/resource/WEFT> a foaf:Organization;
     foaf:name "WEFT 90.1fm"@en ;
