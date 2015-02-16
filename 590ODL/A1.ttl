@@ -20,6 +20,6 @@
     foaf:workplaceHomepage <http://library.illinois.edu/sc> ;
     foaf:based_near [
         a geo:Point;
-        geo:lat "40.107879" ;
-        geo:long "-88.231900" ; 
+        geo:lat "40.104709" ;
+        geo:long "-88.229012" ; 
     ]. 
