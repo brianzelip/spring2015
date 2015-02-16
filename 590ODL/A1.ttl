@@ -24,4 +24,4 @@
     foaf:member dbp:WEFT ;
     foaf:skypeID "brianzelip" ;
     zelip:githubID "brianzelip" ;
-    zelip:twitterID "bzelip" .
+    zelip:twitterID "bzelip".
