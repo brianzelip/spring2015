@@ -22,6 +22,7 @@
         geo:long "-88.229012" ; 
     ];
     foaf:member dbp:WEFT ;
+    foaf:member dbp:Free_Software_Foundation ;
     foaf:skypeID "brianzelip" ;
     zelip:githubID "brianzelip" ;
     zelip:twitterID "bzelip" .
