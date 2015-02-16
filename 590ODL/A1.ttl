@@ -1,1 +1,27 @@
-hello
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> . 
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wped: <http://en.wikipedia.org/wiki/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix zelip: <http://zelip.me/rdf/> .
+
+<http://zelip.me> a foaf:Person;
+    foaf:familyName "Zelip"@en ;
+    foaf:givenName "Brian"@en ;
+    foaf:name "Brian Zelip"@en ;
+    dc:description """Brian Zelip is a Masters student at the University of Illinois Graduate School of Library and Information Science."""@en ;
+    foaf:homepage <http://people.lis.illinois.edu/~bzelip/index.html> ;
+    foaf:img <http://people.lis.illinois.edu/~bzelip/img/bz-square.jpg> ;
+    foaf:mbox "bzelip@illinois.edu" ;
+    foaf:workplaceHomepage <http://library.illinois.edu/sc> ;
+    foaf:based_near [
+        a geo:Point;
+        geo:lat "40.104709" ;
+        geo:long "-88.229012" ; 
+    ];
+    foaf:member dbp:WEFT ;
+    foaf:skypeID "brianzelip" ;
+    zelip:githubID "brianzelip" ;
+    zelip:twitterID "bzelip" .
