@@ -5,9 +5,6 @@
 @prefix wped: <http://en.wikipedia.org/wiki/> .
 @prefix dbp: <http://dbpedia.org/resource/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix xref: <http://id.crossref.org/contributor/>.
 
 <http://zelip.me> a foaf:Person;
     foaf:familyName "Zelip"@en ;
@@ -22,4 +19,5 @@
         a geo:Point;
         geo:lat "40.104709" ;
         geo:long "-88.229012" ; 
-    ]. 
+    ];
+    foaf:member dbp:WEFT .
