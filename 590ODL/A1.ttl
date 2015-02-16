@@ -9,11 +9,10 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xref: <http://id.crossref.org/contributor/>.
 
-<http://people.lis.illinois.edu/~ddubin/> a foaf:Person;
-     foaf:familyName "Dubin"@en ;
-     foaf:givenName "David"@en ;
-     foaf:name "David Dubin"@en ;
-     foaf:nick "Dave Dubin"@en ;
+<http://zelip.me> a foaf:Person;
+     foaf:familyName "Zelip"@en ;
+     foaf:givenName "Brian"@en ;
+     foaf:name "Brian Zelip"@en ;
      dc:description """David Dubin is a Research Associate Professor at the 
 University of Illinois Graduate School of Library and Information Science in 
 Champaign, IL."""@en ;
@@ -49,3 +48,5 @@ Champaign, IL."""@en ;
      foaf:interest wped:Library_science ;
      foaf:interest wped:Information_science ;
      foaf:interest wped:Board_game .
+
+
